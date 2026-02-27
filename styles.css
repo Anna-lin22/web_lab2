@@ -1,0 +1,129 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+header table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+header td:first-child {
+    text-align: left;
+    vertical-align: middle;
+}
+
+header td:last-child {
+    text-align: right;
+    vertical-align: middle;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    color: #7f8c8d;
+}
+
+header img {
+    border: 3px solid orange;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, orange, transparent);
+    margin: 30px 0;
+}
+
+section {
+    margin-bottom: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid orange;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+address ul, section ul {
+    font-style: normal;
+    list-style-type: none;
+    padding: 0;
+}
+
+address li, section li {
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article {
+    background: #f7eee3;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid orange;
+}
+
+article p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    color: #cfbd8a;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    header table, header tr, header td {
+        display: block;
+        text-align: center;
+    }
+    
+    header td:last-child {
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    header img {
+        width: 120px;
+    }
+}
